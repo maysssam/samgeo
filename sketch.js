@@ -7,7 +7,7 @@ function setup(){
 }
 
 function draw(){
-  background(250);
+  background(0);
   translate(-250 * 2.5, 0, 0);
   normalMaterial();
   push();
