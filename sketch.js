@@ -4,11 +4,7 @@
  */
 function setup(){
   createCanvas(710, 400, WEBGL);
-  renderer.setSize( W, H );
-				var canvasElement = renderer.domElement;
-				canvasElement.className = "canvas-box";
-				var page = document.getElementById("page");
-				page.insertBefore(renderer.domElement, page.firstChild);
+
 }
 
 function draw(){
